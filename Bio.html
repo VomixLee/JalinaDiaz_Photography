@@ -18,6 +18,7 @@
 
     <!--http://127.0.0.1:5500/Photography%20Landing%20Page/index.html-->
 </head>
+
 <body>
     <nav class="main-nav">
         <p class="logo"><a href="index.html">Jalina Diaz</a></p>
@@ -31,14 +32,17 @@
             <li><a href="ClientAlbums.html" class="menu">Client Albums</a></li>
          </ul>
     </nav>
+
     <section class="bio-container">
         <div class="bio-pic">
             <img src="./resources/img/WifeBioPic.jpg" alt="Hanging out by the bridge">
         </div>
+
         <div class="bio">
             <h1 class="lp-title about-header">About Me</h1>
             <p class="bio-about">Hello, my name is Lizette Aurora Jalina Diaz! I'm an aspiring photographer who has always had a passion, love and appreciation for photography. My interest grew after having three beautiful girls and I became fascinated with getting the perfect family photo of us! From there I followed this interest and it has led me to doing what I'm most passionate about! </p>
         </div>
+        
         <h1 class="lp-title about-header">Contact Me</h1>
         <p>2600 East 19th Drive
             <br>
@@ -48,35 +52,45 @@
             <br>
             Tel: 123-456-7890</p>
     </section>
-   <div class="fc-container">
-    <form action="#">
-        <div class="user-details">
-            <div class="input-box">
-                <span class="details">Full Name</span>
-                <input type="text" placeholder="Enter Your Name" required>
-            </div>
-            <div class="input-box">
-                <span class="details">Email</span>
-                <input type="email" placeholder="Enter Your Email" required>
-            </div>
-            <div class="input-box">
-                <span class="details">Subject</span>
-                <input type="text" placeholder="Enter The Subject" required>
-            </div>
-            <div class="input-box">
-                <span class="details">Address</span>
-                <input type="text" placeholder="Enter Your Address">
-            </div>
-            <div class="input-box">
-                <span class="details">Message</span>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter Your Message" required></textarea>
-            </div>
-            <div class="button">
-                <input type="submit" value="Submit">
-            </div>
-        </div>
-    </form>
-   </div>
+
+   <!------ CONTACT ME SECTION ------>
+
+   <form>
+
+    <label for="first-name">
+      First Name
+    </label>
+  
+    <input type="text" id="first-name">
+  
+    <label for="last-name">
+      Last Name
+    </label>
+  
+    <input type="text" id="last-name">
+  
+    <label for="email">
+      Email
+    </label>
+  
+    <input type="email" id="email">
+  
+    <label for="address">
+      Address
+    </label>
+  
+    <input type="text" id="address">
+  
+    <label for="message">
+      Message
+    </label>
+  
+    <textarea id="message"></textarea>
+  
+    <input type="submit" value="Send" id="sendBtn">
+  
+  </form>
+
     <footer>
         <div class="footer-container">
             <div class="social-box">
